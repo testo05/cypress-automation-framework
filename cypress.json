@@ -1,0 +1,24 @@
+{
+  "baseUrl": "https://webdriveruniversity.com/",
+  "viewportWidth": 1600,
+  "viewportHeight": 860,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 30000,
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  },
+  "env": {
+    "webdriveruni_homepage": "https://webdriveruniversity.com/",
+    "webdriveruni_contactuspage": "https://webdriveruniversity.com/Contact-Us/contactus.html",
+    "first_name": "Iker"
+  },
+  "projectId": "u4sfv3",
+
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "experimentalStudio": true
+}
